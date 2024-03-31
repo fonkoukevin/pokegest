@@ -1,0 +1,7 @@
+.ng-valid[required]{
+    border-left: 5px solid #42A948;
+}
+/* ng est puissant il nous permet de verifier si notre form est valid ou pas ici on le fait mais pour les champ qui ne sont pas des form donc nos select pour verifier si il ne sont pas valid et en haut c'est pour tout les champ avec l'attribut require  */
+.ng-valid:not(form){      
+    border-left: 5px solid #A94442;
+}
